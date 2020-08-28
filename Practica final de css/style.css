@@ -12,8 +12,8 @@ body {
 
 .contenedor {
     width: 1000px;
-    margin: 20px;
-
+    margin: 20px auto;
+    overflow: hidden;
 }
 
 header {
@@ -44,4 +44,78 @@ header nav ul li a {
 header nav ul li a:hover {
     background: black;
     color: white;
+}
+
+.main {
+    width: 700px;
+    background: white;
+    float: left;
+}
+
+.main .imagen {
+    width: 100%;
+}
+
+.main .imagen img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .post {
+    padding: 40px;
+}
+
+.main .post article h2 {
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.mian .post article p {
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+aside {
+    width: 300px;
+    background: #161f26;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+
+aside .widget {
+    margin-bottom: 20px;
+}
+
+aside .widget .titulo {
+    color: tomato;
+    border-bottom: 1px solid tomato;
+    margin-bottom: 10px;
+}
+
+aside .widget ul {
+    list-style: none;
+}
+aside .widget ul li {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+    padding: 10px 0;
+}
+aside .widget ul li a {
+    color: white;
+    text-decoration: none;
+}
+aside .widget ul li a:hover {
+    color: #8f8f8f;
+}
+aside .widget p {
+    line-height: 27px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    clear: both;
 }
